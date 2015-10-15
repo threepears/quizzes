@@ -1,0 +1,49 @@
+header {
+	border: 1px solid #000;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+a:link, 
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.disabled {
+	color: gray;
+}
+
+a .disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.parent div div:first-child {
+	color: red;
+}
+
+.parent div > h4 {
+	background-color: red;
+}
+
+.parent div h4:last-child {
+	background-color: blue;
+}
+
+.parent div h4 + div {
+	color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px solid #000;
+	border-radius: 10px;
+}
